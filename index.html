@@ -711,7 +711,7 @@
             ws_data.push(['Project Name:-', document.getElementById('projectName').value]);
             ws_data.push([]);
             ws_data.push(['Addressed To:', '', '', 'Billed To:']);
-            ws_data.push([document.getElementById('addressedTo').value, '', '', 'HDFC Bank Ltd. CPC Department, Zenith House, 1st Floor,  Keshavrao Khade Marg,  Opp Race Course, Mahalaxmi,  Mumbai - 400034']);
+            ws_data.push([document.getElementById('addressedTo').value, '', '', 'ICICI Bank Ltd. CPC Department, Zenith House, 1st Floor,  Keshavrao Khade Marg,  Opp Race Course, Mahalaxmi,  Mumbai - 400034']);
             ws_data.push([]);
             ws_data.push(['Package :', document.getElementById('packageDesc').value, '', 'Recoverable From', 'NA']);
             ws_data.push(['Interior Contractor / Architect', document.getElementById('contractor').value, '', 'Payment Advice Ref. No.']);
@@ -908,7 +908,7 @@ Private Sub Process_Sheet1(StampPath As Variant)
     
     ws.Range("F6:H6").Merge
     With ws.Range("F6:H6")
-        .Value = "HDFC Bank Ltd. CPC Department, Zenith House, 1st Floor, Keshavrao Khade Marg, Opp Race Course, Mahalaxmi, Mumbai - 400034"
+        .Value = "ICICI Bank Ltd. CPC Department, Zenith House, 1st Floor, Keshavrao Khade Marg, Opp Race Course, Mahalaxmi, Mumbai - 400034"
         .Font.Size = 10: .WrapText = True: .VerticalAlignment = xlTop: .Borders.LineStyle = xlContinuous
     End With
     ws.Rows(6).RowHeight = 45
